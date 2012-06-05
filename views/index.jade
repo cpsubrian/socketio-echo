@@ -1,0 +1,20 @@
+h1= title
+ol
+  li Input some text
+  li Select a transformation
+  li Watch your output get echoed back in real-time!
+
+div(class="box")
+  h2 Input
+  input(type="text", id="input")
+
+div(class="box")
+  h2 Transform
+  select(id="trans")
+    option(value="none") None
+    option(value="upper") Upper-Case
+    option(value="lower") Lower-Case
+
+div(class="box")
+  h2 Output
+  div(id="output")

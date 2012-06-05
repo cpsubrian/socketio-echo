@@ -1,0 +1,27 @@
+{
+  "author": "Brian Link <cpsubrian@gmail.com>",
+  "name": "socketio-echo",
+  "description": "A simple socket.io echo server.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cpsubrian/socketio-echo.git"
+  },
+  "scripts": {
+    "start": "node server",
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "dependencies": {
+    "socket.io" : "~0.9.6",
+    "express": "~2.5.9",
+    "jade": "~0.26.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.1.0",
+    "zombie": "~1.3.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
